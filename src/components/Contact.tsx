@@ -164,7 +164,7 @@ const Contact = () => {
                 <div onClick={handleSubmit}
                   className=" flex   rounded-md cursor-pointer">
                   <button
-                    className="p-0 relative m-0 w-full text-base outline-none focus:font-medium appearance-none border-0 rounded-full px-5 py-2 bg-[#2f2d2d] text-black hover:bg-transparent hover:outline hover:outline-2 hover:outline-black hover:text-black"
+                    className="p-0 relative m-0 w-full text-base outline-none focus:font-medium appearance-none border-0 rounded-full px-5 py-2 bg-[#2f2d2d] text-white hover:bg-transparent hover:outline hover:outline-2 hover:outline-black hover:text-black"
                   >
                     Send Message
                   </button>
