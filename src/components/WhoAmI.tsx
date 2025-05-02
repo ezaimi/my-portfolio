@@ -23,19 +23,18 @@ function WhoAmI() {
                     <p className="font-mono text-black text-[26px] lg:text-[24px] md:text-[24px] mt-[-1px]">{personalInfo.profession}</p>
                 </div>
 
-                <div className="flex relative h-[27rem] justify-center items-center smmd:hidden ">
+                <div className="flex relative h-[27rem]  justify-center items-center smmd:hidden ">
                     <div
                         style={{
                             backgroundColor: "rgba(255, 255, 255, 0.1)",
                             backdropFilter: "blur(20px)",
                             WebkitBackdropFilter: "blur(20px)",
                         }}
-                        className="overflow-hidden  absolute z-0 rounded-full shadow-neumorphic flex items-center justify-center h-[23rem] w-[23] mt-6"
-                    >
+                        className="overflow-hidden  absolute z-0 rounded-full shadow-neumorphic flex items-center justify-center min-h-[21rem] min-w=[21rem] h-[19rem] w-[19rem] mt-6">
                         <img
                             src={me}
                             alt=""
-                            className="mt-[2rem] h-[100%] w-auto object-contain z-10"
+                            className="mt-[2rem] h-[100%] w-auto object-contain z-10 "
                         />
                     </div>
                 </div>
