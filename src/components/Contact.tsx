@@ -88,7 +88,7 @@ const Contact = () => {
           
      }} className=" shadow-neumorphic lg:h-[32rem] py-10 px-7">
           <div className="lg:hidden w-full flex justify-center text-center
-           text-[17px] sm:tet-[18px] md:text-[20px] mt-[-1rem] mb-6 text-[#d8d2d2] font-semibold">
+           text-[17px] sm:tet-[18px] md:text-[20px] mt-[-1rem] mb-6 text-black font-semibold">
             Send a message</div>
           <div>
             <div className="-mx-4 flex flex-wrap">
