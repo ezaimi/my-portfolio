@@ -2,7 +2,7 @@ import me from "../assets/Images/EntryPage/era-foto.png";
 import "../style/EntryPage.css"
 import { personalInfo } from "../data/GeneralData";
 import { handledownload } from "../utilities/Helpers/ExternalConnection";
-import cv from "../assets/Documents/CV_DavidKeci.pdf"
+import cv from "../assets/Documents/Erisa-Zaimi-CV.pdf"
 
 
 
