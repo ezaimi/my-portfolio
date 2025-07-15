@@ -142,11 +142,11 @@ function Projects() {
                                   }
 
                                 }}
-                                className=" font-semibold text-[16px] hover:cursor-pointer hover:bg-[#9e2e45] whitespace-nowrap rounded-full px-5 py-2 bg-[#383737] text-white hover:bg-transparent hover:outline hover:outline-2 hover:outline-black hover:text-black"
-                              >
-                                {item.livedemo == true ? "Live demo" : "More info"}
-                                <RemoveRedEyeIcon className="ml-3 text-[#ffffff]" />
-                              </button>
+                                className=" group font-semibold text-[16px] hover:cursor-pointer hover:bg-transparent whitespace-nowrap rounded-full px-5 py-2 bg-[#383737] text-white hover:outline hover:outline-2 hover:outline-black hover:text-black"
+                                >
+                                  {item.livedemo == true ? "Live demo" : "More info"}
+                                  <RemoveRedEyeIcon className="ml-3 text-[#ffffff] group-hover:text-black" />
+                                </button>
                             </div>
                           </div>
                         </div>
@@ -174,13 +174,13 @@ function Projects() {
           <div className="flex relative justify-between mt-4 px-2 sm:px-4 md:px-8 lg:px-20">
             <button
               onClick={prevSlide}
-              className=" text-[#ebe6e6]  relative bg-[#2a2929] px-4 py-4 rounded-[50px] hover:bg-red-700"
+              className=" text-[#ebe6e6]  relative bg-[#2a2929] px-4 py-4 rounded-[50px]hover:cursor-pointer whitespace-nowrap rounded-full  hover:bg-transparent hover:outline hover:outline-2 hover:outline-black hover:text-black"
             >
               <ArrowBackIcon />
             </button>
             <button
               onClick={nextSlide}
-              className="text-[#ebe6e6]  relative bg-[#2a2929] px-4 py-4 rounded-[50px]"
+              className="text-[#ebe6e6]  relative bg-[#2a2929] px-4 py-4 rounded-[50px] hover:cursor-pointer whitespace-nowrap hover:bg-transparent hover:outline hover:outline-2 hover:outline-black hover:text-black"
             >
               <ArrowForwardIcon />
             </button>

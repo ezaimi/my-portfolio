@@ -19,7 +19,7 @@ export const portfolioItems = [
     image: artHive,
     description: "ArtHive",
     details:
-      "A platform for artists to showcase their work and.",
+      "A platform for artists to showcase their art and connect with others.",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const portfolioItems = [
     image: kosherja,
     description: "Kosherja",
     details:
-      "A comprehensive system for effectively managing studen.",
+      "A comprehensive system for managing student accommodation.",
   },
   {
     id: 1,
@@ -35,9 +35,10 @@ export const portfolioItems = [
     image: tastyRush,
     description: "TastyRush",
     details:
-      "A program that  features a collection of .",
+      "A program that features a collection of numerous restaurants.",
   },
 ];
+
 
 import imag0 from "../assets/Images/EntryPage/scArtHive.png";
 import imag1 from "../assets/Images/EntryPage/scArtHive2.png";
